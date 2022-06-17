@@ -32,7 +32,7 @@ main {
 .bigContainer > p {
   position: absolute;
   margin-top: 5px;
-  margin-left: 21%;
+  margin-left: 22%;
 }
 /* blue button style */
 #blue-butt {
@@ -118,19 +118,17 @@ main {
 }
 
 #items17 {
-  width: 40%;
+  width: 42%;
   background-color: rgb(39, 39, 91);
   color: #ffffff;
 }
 
 #items18 {
-  width: 40%;
+  width: 42%;
   background-color: rgb(195, 10, 10);
   color: #ffffff;
   margin-bottom: 20px;
 }
-
-
 
 @media (max-width: 768px) {
   .itemContainer {
@@ -160,15 +158,14 @@ main {
     /* border: #ffffff solid 2px; */
     width: 100%;
   }
-
 }
 
-@media (max-width:1000px) {
-.bigContainer > p {
-  /* position: absolute;
+@media (max-width: 1000px) {
+  .bigContainer > p {
+    /* position: absolute;
   margin-top: 5px;
   margin-left: 240px; */
-  float: right;
-  margin-left: 42%;
-}
+    float: right;
+    margin-left: 42%;
+  }
 }
